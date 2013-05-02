@@ -1,6 +1,6 @@
 # gameDevTycoonFixer #
 
-workaround fix for bug in Game Dev Tycoon
+workaround fix for bug in Game Dev Tycoon v**1.3.1**
 
 I bought the game **Game Dev Tycoon**, but when I get to the 2nd Office (1M level up), the game crashes with:  
 
