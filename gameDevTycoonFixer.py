@@ -3,12 +3,23 @@
 import subprocess
 import os
 import time
+from subprocess import Popen
 
 command = "ps ax | grep gamedev | grep working-directory"
 searchForCommand = "--working-directory="
 nothingFixed = True
 
+
+gameProcess = None
+
+if os.path.isfile("gamedevtycoon"):
+	gameProcess = Popen(['gamedevtycoon'])
+
+
 while nothingFixed:
+	if gameProcess != None:
+		time.sleep(0.5)
+		
 	process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
 	os.waitpid(process.pid, 0)
 	output = process.stdout.read()
@@ -26,6 +37,7 @@ while nothingFixed:
 				source = workingPath + "/images/superb/level2Desk.png"
 				dest = workingPath + "/images/superb/level2desk.png"
 				os.rename(source, dest)
+				
 				print("found what we were searching for and fixed it ;)")
 				nothingFixed = False
 				break
@@ -33,3 +45,8 @@ while nothingFixed:
 		print("Found unknown output:\n" + output)
 	
 	time.sleep(0.5)
+	
+if gameProcess != None:
+	# wait til the game closed
+	gameProcess.wait()
+	

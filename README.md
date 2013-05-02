@@ -24,16 +24,17 @@ use the DOWNLOAD Button (or link below, instead of trying right-klick on the fil
 https://github.com/bison--/gameDevTycoonFixer/archive/master.zip  
 and extract it.  
 
+
 Just load the file, open a terminal and launch with:
 
     python gameDevTycoonFixer.py
 
 alternatively make it executeable  
 (right klick->settings... / open Terminal: chmod +x gameDevTycoonFixer.py)  
-double click it or type:
+double click it or type:  
 
     ./gameDevTycoonFixer.py
-    
-    
-just BEFORE you launch the game.  
-It wil fix the "problem" by itself ;)
+
+If the game binary **gamedevtycoon** is in the same folder, it will launch the game istelf.  
+If NOT, start the game after the script, it will fix the "problem" by itself ;)
+
