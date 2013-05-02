@@ -35,6 +35,6 @@ double click it or type:
 
     ./gameDevTycoonFixer.py
 
-If the game binary **gamedevtycoon** is in the same folder, it will launch the game istelf.  
-If NOT, start the game after the script, it will fix the "problem" by itself ;)
+If the script is in the same folder as the game binary **gamedevtycoon** , the script will launch the game by itself.  
+If NOT, start the game after the script, it will fix the "problem" immediately after launch ;)
 
