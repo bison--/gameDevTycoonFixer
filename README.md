@@ -1,13 +1,13 @@
 # gameDevTycoonFixer #
 
-workaround fixes for bug in Game Dev Tycoon
+workaround fix for bug in Game Dev Tycoon
 
-I bought the game **Game Dev Tycoon**, but when i get to the 2nd Office (1M level up), the game crashes with:  
+I bought the game **Game Dev Tycoon**, but when I get to the 2nd Office (1M level up), the game crashes with:  
 
     Java Script [object Event]
 
 So i found out it is a problem, that can be solved.  
-But who wants to make this every time you lauinch teh game?  
+But who wants to make this every time you launch the game?  
 Thats where this tiny script comes in.
 
 * The game: http://www.greenheartgames.com/app/game-dev-tycoon/
@@ -23,5 +23,5 @@ double click it or type:
 
     ./gameDevTycoonFixer.py
     
-just BEFORE you launch teh game.  
+just BEFORE you launch the game.  
 It wil fix the "problem" by itself ;)
