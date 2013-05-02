@@ -17,7 +17,14 @@ Thats where this tiny script comes in.
 
 ## Intsallation ##
 There is NO installation.  
-Just load this file, open a terminal and launch with:
+
+**NOTE**  
+If you are NOT familiar with GitHub and scripting files,  
+use the DOWNLOAD Button (or link below, istead of trying right-klick on the file)  
+https://github.com/bison--/gameDevTycoonFixer/archive/master.zip  
+and extract it. 
+
+Just load the file, open a terminal and launch with:
 
     python gameDevTycoonFixer.py
 
@@ -26,6 +33,7 @@ alternatively make it executeable
 double click it or type:
 
     ./gameDevTycoonFixer.py
+    
     
 just BEFORE you launch the game.  
 It wil fix the "problem" by itself ;)
