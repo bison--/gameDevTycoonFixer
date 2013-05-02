@@ -20,9 +20,9 @@ There is NO installation.
 
 **NOTE**  
 If you are NOT familiar with GitHub and scripting files,  
-use the DOWNLOAD Button (or link below, istead of trying right-klick on the file)  
+use the DOWNLOAD Button (or link below, instead of trying right-klick on the file)  
 https://github.com/bison--/gameDevTycoonFixer/archive/master.zip  
-and extract it. 
+and extract it.  
 
 Just load the file, open a terminal and launch with:
 
