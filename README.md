@@ -17,7 +17,11 @@ Thats where this tiny script comes in.
 
 ## Intsallation ##
 There is NO installation.  
-Just load this file, make it executeable  
+Just load this file, open a terminal and launch with:
+
+    python gameDevTycoonFixer.py
+
+alternatively make it executeable  
 (right klick->settings... / open Terminal: chmod +x gameDevTycoonFixer.py)  
 double click it or type:
 
